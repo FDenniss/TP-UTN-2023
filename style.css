@@ -19,8 +19,9 @@ body{
     position: relative;
     width: 100%;
     min-height: 100vh;
-    background-image: url("./background.jpg");
+    background-image: url("https://i.blogs.es/7fc543/alcohol/1366_2000.jpg");
     background-size: cover;
+    
 }
 
 .modal{
