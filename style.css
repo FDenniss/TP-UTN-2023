@@ -1,0 +1,111 @@
+@import url("https://fonts.cdnfonts.com/css/gilroy-bold");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 100%;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    min-height: 100vh;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("https://i.blogs.es/7fc543/alcohol/1366_2000.jpg");
+    background-size: cover;
+    
+}
+
+.modal{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 56.25rem;
+    width: 90%;
+    height: 50%;
+    border-radius: 0.625rem;
+    background-image: linear-gradient(to left, hsla(198, 0%, 25%, 0.7), hsla(198, 0%, 50%, 0.5));
+}
+
+.modal > p{
+    color: hsla(198, 0%, 83%, 1);
+    font-size: 2em;
+    font-family: "Gilroy-Bold", sans-serif;
+}
+
+.modal > form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    margin: 0.625rem 0;
+}
+
+.modal form > label{
+    color: hsla(198, 0%, 83%, 1);
+    font-size: 0.75em;
+    font-family: "Gilroy-Regular", sans-serif;
+    padding: 0.3125em 0;
+}
+
+.modal form > input{
+    color: hsla(198, 0%, 83%, 1);
+    font-size: 1em;
+    font-family: "Gilroy-Medium", sans-serif;
+    padding: 0.3125em;
+    margin: 0.3125rem 0;
+    outline: none;
+    border: none;
+    background: none;
+    border-bottom: 0.0625rem solid hsla(198, 0%, 83%, 1);
+}
+
+.modal form > input:focus{
+    transition: 0.3s;
+    background-color: hsla(198, 0%, 40%, 0.5);
+}
+
+.modal form > input::placeholder{
+    color: hsla(198, 0%, 76%, 1);
+}
+
+.modal form > button{
+    font-size: 1em;
+    color: hsla(198, 0%, 83%, 1);
+    font-family: "Gilroy-Medium", sans-serif;
+    padding: 0.3125em 0;
+    margin: 0.625rem 0;
+    background: none;
+    border: 0.0625rem solid hsla(198, 0%, 83%, 1);
+    border-radius: 0.625rem;
+    cursor: pointer;
+}
+
+.modal form > button:hover{
+    transition: 0.3s;
+    background-color: hsla(198, 0%, 40%, 0.5);
+}
+
+#error-msg{
+    color: red;
+    font-size: 1em;
+    text-shadow: 0 0 0.3125em red;
+    padding: 0.3125em;
+    border-radius: 0.625rem;
+    background-color: hsla(198, 0%, 30%, 0.7);
+}
