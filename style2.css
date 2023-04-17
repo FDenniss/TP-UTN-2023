@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.hmtl{
+    font-size: 100%;
+}
+
+body{
+    background-image: url(fond1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.Titulo{
+    font-family: cursive;
+    text-align: center;
+    font-size: 50px;
+    color: gold;
+    text-shadow: 4px 4px 5px white;
+    transition: 10s;
+    
+}
+
+.fotos1{
+    text-align: center;
+    
+}
+
+.foto2{
+    text-align: center;
+    
+}
+
+.container-fluid{
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+}
+
+.Cerveza1{
+    margin-left: 40px;
+}
+
+.Cerveza2{
+   margin-left: 40px;
+   
+}
+
+.Cerveza3{
+    margin-left: 40px;
+}
+
+.Cerveza4{
+    margin-left: 40px;
+    
+}
+
+.Cerveza5{
+    margin-left: 40px;
+}
+
+.Cerveza6{
+    margin-top: 20px;
+    margin-left: 20%;
+}
+.Cerveza7 {
+    margin-top: 20px;
+    margin-left: 20%
+}
+
+.Regreso a{
+    border: solid white 2px;
+    border-radius: 10%;
+    background-color: aliceblue;
+    margin-left: 10px;
+}
