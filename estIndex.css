@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#header{  margin:auto;
+    width: 3000px;
+    font-family: Arial, Helvetica, sans-serif;    }
+ul,ol {list-style :none;}
+.nav li a { background-color: black;
+color: rgb(18, 86, 146);
+text-decoration: none;
+padding: 20px 70px;
+display: block;}
+.nav li a:hover{background-color: aqua;}
+.nav >li{ float: left;}
+.nav li ul{display:none;
+position: absolute;
+/*min-width: 110px;*/}
+.nav li:hover>ul{display: block;}
+
+
+.topnav {
+    overflow: hidden;
+    background-color: #f0090960;
+    align-items: center;
+    font-family: "Handlee", sans-serif;
+    margin: 5%;
+    padding: 5%;}
+
+.container {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("fond1.jpg");
+    background-size: cover;
+    padding: 5px;
+    float: left;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(Inicio.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.tope {
+    font-size: 200%;
+    text-align: center;}
+.jk {
+    
+    text-align: right;
+    width: 150px;}
+.contenedor {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;}
+.futer {
+    background-image: url("fond1.jpg");
+    background-color: #050101;
+    text-align: center;
+    color: rgb(238, 10, 10);
+    padding: 5px;
+    font-family: "Handlee", sans-serif;}
+
+@media screen and (min-width: 1024px){
+    .container {
+        background: #e7d1bf;
+        width: 90%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .container {
+        background: #8d8a87;
+        width: 90%;
+    }
+}
+@media screen and (max-width: 767px){
+    .container {
+        background: #9c9087;
+        width: 90%;
+    }
+}
+
+input,textarea {   
+    width: 90%;}
+input:invalid {
+    border: 1px dashed rgb(230, 5, 5);} 
+input:valid {
+    border: 1px solid black;}
+
+
+ .Volver a{
+    border: solid rgb(100, 21, 100) 2px;
+    border-radius: 10%;
+    background-color: rgb(252, 193, 1);
+    margin-left: 10px;
+}

@@ -4,25 +4,80 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="device-width, initial-scale=1">
-    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style1.css">
+    <title>Bienvenido Gran Cava tienda de Bebidas</title>
 </head>
 <body>
-    <div>
-        <h1> 
-           <n><b><i>Bienvenidos</i></b></n>
-        </h1>
-        <img src="" alt="">
-   
-          <p><b>LISTA DE SECCIONES</b></p>
+    <div class="Titulo">
+       <p id="title" class="title" > Bienvenido NAME a Gran Cava </p>
+    </div>
+    <div class="Lista">
+        <p><b>LISTA DE SECCIONES:</b></p>
            <ol> 
               <li><a href="index2.html">Cervesas</a></li>
               <li><a href="index3.html">Licores</a></li>
               <li><a href="index4.html">Vinos</a></li>
               <li><a href="index5.html">Gaseosas</a></li>
-           </ol>
-       </div>
-       <script src="./main.js"></script>
-     </body>
-   
+              <li><a href="reclamo.html">Reclamos</a> </li>
+           </ol>    
+    </div>
+    <br>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="bebidas.jpg" class="d-block w-100" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="Licores.jpg" class="d-block w-100 " alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="Cervezas.jpg" class="d-block w-100" alt="">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <br>
+      <div class="RedesSociales">Redes Sociales</div>
+      <div class="containerRedes">
+         <div class="icon">
+          <svg heigth ="80" width="80">
+            <circle cx="40" cy="40" r="35" stroke="white" stroke width="4" fill="none"></circle>
+          </svg>
+          <i class='bx bxl-facebook-circle'></i>
+         </div>
+         <div class="icon">
+          <svg heigth ="80" width="80">
+            <circle cx="40" cy="40" r="35" stroke="white" stroke width="4" fill="none"></circle>
+          </svg>
+          <i class='bx bxl-whatsapp'></i>
+         </div>
+         <div class="icon">
+          <svg heigth ="80" width="80">
+            <circle cx="40" cy="40" r="35" stroke="white" stroke width="4" fill="none"></circle>
+          </svg>
+          <i class='bx bxl-instagram' ></i>
+         </div>
+      </div>
+      
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+    <div class="container">
+        <footer class="footer">
+          <p>© Todos los derechos reservados.</p>
+          <p>Kiosko Only</p>
+         </footer>
+      </div>
+      <script src="main1.js"></script>
 </body>
 </html>

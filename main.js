@@ -1,7 +1,8 @@
 const form = document.getElementById("form");
 const inputName = document.getElementById("input-name");
 const errorMsg = document.getElementById("error-msg");
-const button = location.href("index0.html")
+
+
 form.onsubmit = (e) => {
   e.preventDefault();
   errorMsg.style.display = "none";
@@ -9,11 +10,13 @@ form.onsubmit = (e) => {
     errorMsg.style.display = "block";
   }
   else{
-    sessionStorage.setItem("Name", inputName.value);
+    localStorage.setItem("Name", inputName.value);
+    window.open("index0.html", "_self");
   }
 };
 
 function submit() {
   window.location.href="index0.html";
 }
+
 
