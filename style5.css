@@ -4,19 +4,15 @@
 }
 
 body{
-    background-image: url(fondo2.jpg);
+    background-image: url(fndo.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
 }
 
 .html{
     font-size: 100%;
-    background-image: url(fond1.jpg);
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
-
 }
 
 
@@ -25,23 +21,23 @@ body{
     margin-top: 20px;
     font-size: 50px;
     color: aliceblue;
+    text-shadow: 5px 5px 10px  rgb(241, 2, 2);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     transition: 10s;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 
 .fotos1{
     text-align: center;
     letter-spacing: 30px;
-    transition: 20s;
+    transition: 10s;
    
 }
 
 .foto2{
     text-align: center;
-    letter-spacing: 30px;
     transition: 10s;
-
+    letter-spacing: 30px
    
 }
 
@@ -49,38 +45,30 @@ body{
     display: flex;
     flex-wrap: wrap;
     text-align:center;
-    background-color: black;
+    background-color: rgb(82, 82, 82);
     padding: 20px;
-    
 }
 
 .Gaseosa1{
-    margin-left: 50px;
-    margin-right: 40px;
+    margin-left: 40px;
 }
 
+.Gaseosa2{
+    margin-left: 40px;
+}
 
 .Gaseosa3{
-    margin-left: 50px;
-    margin-right: 40px;
+    margin-left: 40px;
 }
 
 .Gaseosa4{
-    margin-left: 50px;
-    margin-right: 40px;
+    margin-left: 40px;
 }
 
 .Gaseosa5{
-    margin-left: 50px;
-    margin-right: 40px;
+    margin-left: 40px;
 }
 
 .Gaseosa6{
-    margin-left: 50px;
-    margin-right: 40px;
-}
-
-.Gaseosa7{
-    margin-right: 50px;
-    margin-right: 40px;
+    margin-left: 40px;
 }

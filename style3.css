@@ -9,72 +9,62 @@
 }
 
 body{
-    background-image: url(fond1.jpg);
-    background-repeat: no-repeat;
+    background-image: url(Fondolicores.jpg);
     background-size: cover;
     width: 100%;
     height: 100vh;
-
 }
 
 .Titulo{
     font-family: cursive;
     text-align: center;
     font-size: 50px;
-    color: rgb(172, 149, 19);
-    text-shadow: 4px 4px 5px rgb(214, 204, 204);
-    transition: 10s;
-    
+    color: rgb(238, 58, 30);
+    text-shadow: 4px 4px 10px rgb(243, 240, 240);
+   
+   
 }
-
-
-
 
 
 .container-fluid{
    display: flex;
    flex-wrap: wrap;
    align-items: center;
+   text-align: center
 }
 
 .Licores1{
-    margin-left: 20px ;
+    margin-left: 50px;
 }
 
 .Licores2{
-   margin-left: 40px;
-   
+    margin-left: 50px;
 }
 
 .Licores3{
-    margin-left: 40px;
+    margin-left: 50px;
 }
 
 .Licores4{
-    margin-left: 40px;
-    
+    margin-left: 50px;
 }
 
 .Licores5{
-    margin-left: 40px;
-   margin-right: 40px;
+    margin-left: 50px;
 }
 
 .Licores6{
-    margin-top: 20px;
-    margin-left: 20%;
+    margin-left: 50px;
 }
-.Licores7 {
-    margin-top: 20px;
-    margin-left: 20%
+
+.Licores7{
+    margin-left: 40%;
+    margin-top: 30px;
 }
-.fotos1{
-    text-align: center;
-    
+
+.foto1{
+   text-align: center;
 }
-.volver a{
-    border: solid rgb(82, 13, 82) 2px;
-    border-radius: 10%;
-    background-color: rgb(249, 253, 6);
-    margin-left: 10px;
-}
+
+
+
