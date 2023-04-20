@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(fondo2.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.html{
+font-size: 100%;
+}
+
+
+
+.titulo{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 10s;
+    background-color: black;
+}
+
+.fotos1{
+    text-align: center;
+    letter-spacing: 30px;
+    transition: 20s;
+   
+}
+
+.foto2{
+    text-align: center;
+    transition: 10s;
+
+   
+}
+
+.container-fluid{
+    display: flex;
+    flex-wrap: wrap;
+    text-align:center;
+    background-color: black;
+    padding: 20px;
+    
+}
+
+.vino1{
+    margin-left: 50px;
+}
+
+.vino2{
+    margin-left: 50px;
+}
+
+.vino3{
+    margin-left: 50px;
+}
+
+.vino4{
+    margin-left: 50px;
+}
